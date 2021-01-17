@@ -1,0 +1,110 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: lightgray;
+    color: rgb(10, 8, 8);
+}
+body { 
+    min-height: 100vh;
+    background-image: linear-gradient(-25deg, #e3ddd9 35%, #555353 65%);
+    font-family: 'Raleway', sans-serif;
+}
+.titulo {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: rgb(17, 15, 15);
+}
+.subtitulo {
+    margin: 0;
+    color: rgb(10, 10, 10);
+    display: -moz-grid-line;
+    font-size: 25px;
+    font-weight: 50px;
+    text-transform: uppercase;
+    
+}
+ul {
+    list-style-type: none;
+  }
+  
+li {
+    background-color: #202020;
+    float: left;
+    text-align: center;
+    width: 5em;
+}
+footer{
+    background: #202020;
+    color: rgb(248, 248, 248); 
+    width: 100%;   
+}
+.Container-body{
+    display: flex;
+    justify-content: space-between;
+}
+.columna3{
+    display: flex;
+    font-size: 15px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.columna3 h1{
+    font-size: 20px;
+}
+.columna3 ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.columna3 ul li a{
+    display: block;
+    padding:0 10px;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+    transition: .2s;
+}
+.columna3 ul:hover a{
+    filter: blur(2px)
+}
+.columna3 ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+.columna3 ul li .facebook:hover{
+    background: var(--facebook);
+}
+.columna3 ul li .instagram:hover{
+    background: var(--instagram);
+}
+.columna3 ul li .twitter:hover{
+    background: var(--twitter);
+}
+.columna3 ul li .Linkedin:hover{
+    background: var(--linkedin);
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 170px;
+    color: lightgray;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+
